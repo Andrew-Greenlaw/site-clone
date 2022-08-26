@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      min-height: 10vh;
+      outline-offset: -2px;
+    }
+
+    body.debug .row {
+      outline: 2px dashed red;
+      min-height: 10vh;
+      outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+  <title>Checkpoint Site Clone</title>
+</head>
+
+<body class="debu">
+  <header>
+    <!-- SECTION Navbar -->
+    <section class="container-fluid sticky-top bg-success">
+      <div class="navbar-brand fs-4 py-1">
+        <i class="mdi mdi-forwardburger"></i>
+        LOREM IPSUM
+      </div>
+    </section>
+    <main>
+      <!-- SECTION hero -->
+      <section class=" container-fluid">
+        <div class="hero row">
+          <div class="col-md-4 d-flex justify-content-center flex-column">
+            <div class=" d-flex justify-content-center flex-column align-items-center">
+              <div>
+                <div class="ps-2">
+
+                  <h5> Want more info?</h5>
+                </div>
+
+                <div class=" card" style="width: 18rem;">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Give us your info</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Name <input type="text"></li>
+                    <li class="list-group-item">Phone <input type="text"></li>
+                    <li class="list-group-item">Email <input type="text"></li>
+                  </ul>
+                  <div class="card-body text-center">
+                    <button type="button" class="btn btn-outline-success" disabled>Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 pt-5">
+            <div class="text-bar-left text-over-img">
+              <div class="px-5 text-light shadow">
+                <h1 class="">
+                  Text over this image
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dignissimos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION Utility -->
+      <section class="container-fluid bg-success">
+        <div class="row">
+          <div class="col-md-5 p-5 order-md-1 order-2">
+            <div>
+              <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet fugiat, vel quibusdam quo quidem
+                laborum
+                maxime sapiente dolorum rem voluptatibus ullam! Autem ipsam </p>
+            </div>
+          </div>
+          <div class="col-md-7 order-md-2 order-1 floating-card">
+            <div class=" bg-light p-4 mt-3 shadow">
+              <div class="d-flex">
+                <i class="mdi mdi-file-document-multiple-outline doc-icon"></i>
+                <div class="ps-4">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                </div>
+              </div>
+              <div class="d-flex">
+                <i class="mdi mdi-cube-outline doc-icon"></i>
+                <div class="ps-4">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                </div>
+              </div>
+              <div class="d-flex">
+                <i class="mdi mdi-image-multiple doc-icon"></i>
+                <div class="ps-4">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                </div>
+              </div>
+              <div class="d-flex">
+                <i class="mdi mdi-shield-outline doc-icon"></i>
+                <div class="ps-4">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                </div>
+              </div>
+              <div class="d-flex">
+                <i class="mdi mdi-shield-outline doc-icon"></i>
+                <div class="ps-4">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION  placeholder -->
+      <section class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-4 p-4">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=723&q=80"
+                alt="portrait" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-8 p-5">
+            <div>
+              <h4> <i class="mdi mdi-cube-outline cube-icon pe-3"></i>Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit
+                amet consectetur.</h4>
+
+            </div>
+            <div class="py-3">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam labore assumenda quisquam corporis ipsa
+                velit, praesentium nisi aliquid voluptates soluta quas minus explicabo odio sint!</p>
+            </div>
+            <div class="text-end">
+              <button type="button" class="btn btn-success">Success</button>
+            </div>
+          </div>
+      </section>
+
+      <!-- SECTION  cards -->
+      <section class="container-fluid bg-light">
+        <div class="row align-items-center py-5">
+          <div class="col-md-4 order-md-1 order-2 mt-3">
+            <div class="p-4 shadow block">
+              <p>
+                " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat eum voluptatibus, iste est
+                ducimus Lorem ipsum dolor sit amet, consectetur adipisicing. "
+              </p>
+              <p class="text-success">
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 order-md-2 order-1">
+            <div class="p-4 shadow block">
+              <div>
+                <i class="mdi mdi-star-circle-outline"></i>
+                <i class="mdi mdi-star-circle-outline"></i>
+                <i class="mdi mdi-star-circle-outline"></i>
+              </div>
+
+              <p>
+                " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat eum voluptatibus, iste est
+                ducimus Lorem ipsum dolor sit amet. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur. "
+              </p>
+              <p class="text-success">
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 order-md-3 order-3 mt-3">
+            <div class="p-4 shadow block">
+              <p>
+                " Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat eum voluptatibus, iste est
+                ducimus Lorem ipsum dolor sit amet consectetur adipisicing. "
+              </p>
+              <p class="text-success">
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION closing statement -->
+      <section class="container-fluid bg-success">
+        <div class="row">
+          <div class="col p-5 ">
+            <div class="text-light">
+              <h4 class="fs-1">
+                This is Closing Statement
+              </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequatur, rem placeat sequi
+                aliquid nihil. Obcaecati nam nemo quia quasi dicta iste temporibus a maxime. Enim veniam perspiciatis
+                omnis ipsam.</p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      <!-- SECTION sites -->
+      <section class="container">
+        <div class="row align-items-center">
+          <div class="col p-4 text-center">
+            <div class="text-success ">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, itaque.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </footer>
+
+
+
+</body>
+
+</html>

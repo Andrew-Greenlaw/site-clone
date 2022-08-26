@@ -1,0 +1,51 @@
+:root {
+  --color: #198754;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+}
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.floating-card {
+  transform: translateY(4rem);
+}
+
+.navbar-col {
+  padding: unset;
+}
+
+.doc-icon {
+  font-size: 2rem;
+  color: var(--color);
+}
+
+.cube-icon {
+  font-size: 3rem;
+  color: var(--color);
+}
+
+.block {
+  text-align: center;
+}
+
+.text-bar-left {
+  border-left: 5px solid var(--color);
+}
+
+@media screen and (max-width: 768px) {
+  .text-over-img {
+    display: none;
+  }
+
+  .floating-card {
+    transform: unset;
+  }
+
+}
