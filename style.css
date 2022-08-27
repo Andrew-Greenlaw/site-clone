@@ -27,10 +27,6 @@ body {
   color: var(--color);
 }
 
-.block {
-  text-align: center;
-}
-
 .text-over-img {
   padding-top: 5rem;
 }
@@ -40,6 +36,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
   .text-over-img {
     display: none;
     padding-top: unset;
