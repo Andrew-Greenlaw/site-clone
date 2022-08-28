@@ -8,7 +8,7 @@ body {
 
 .hero {
   background-image: url('https://images.unsplash.com/photo-1518882174711-1de40238921b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80');
-  height: 55vh;
+  height: 65vh;
   background-position: center;
   background-size: cover;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
 
   .text-over-img {
     display: none;
