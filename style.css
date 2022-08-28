@@ -7,7 +7,7 @@ body {
 }
 
 .hero {
-  background-image: url('https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  background-image: url('https://images.unsplash.com/photo-1518882174711-1de40238921b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80');
   height: 55vh;
   background-position: center;
   background-size: cover;
@@ -34,6 +34,11 @@ body {
 .text-bar-left {
   border-left: 5px solid var(--color);
 }
+
+.contact-form {
+  border-radius: 1rem;
+}
+
 
 @media screen and (max-width: 768px) {
 
